@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
+    <!--<script src='main.js'></script>-->
+  </head>
+  <body>
+    <header>
+      <img
+        src="Media/fondo.webp"
+        alt="Fondo de pag"
+        width="1000px"
+        height="100px"
+      />
+      <h1>Bienvenidos a Libreria "Nombre pendiente"</h1>
+      <img
+        src="Media/logo.jpg"
+        alt="Logo de libreria"
+        width="100px"
+        height="100px"
+      />
+      <nav>
+        <ul>
+          <li><a href="/HTML/contacto.html">Contacto</a></li>
+          <li><a href="/HTML/catalogo.html">Catalogo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div>
+      <p>
+        Bienvenido a Libreria sin nombre donde encontraras los mejores libros al
+        mejor precio!
+      </p>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Generos mas buscados</legend>
+          <input type="radio" name="generoLiterario" id="radioNovel" />
+          <label for="radioNovel">Novelas</label>
+          <input type="radio" name="generoLiterario" id="radioMisterio" />
+          <label for="radioMisterio">Misterio</label>
+          <input type="radio" name="generoLiterario" id="radioAccion" />
+          <label for="radioAccion">Accion</label>
+        </fieldset>
+      </form>
+      <h3>Disfuta de nuestros libros mas populares: </h3>
+      <article>
+        <img src="Media/libro1.webp" alt="libro-famoso" width="150px" height="200px"/>
+        <h5>Nombre: "Cancion de hielo y fuego"</h5>
+        <h5>Autor: Autor</h5>
+        <h5>Fecha de lanzamiento: 2022</h5>
+        <h5>Precio: $50</h5>
+      </article>
+      <article>
+        <img src="Media/libro2.jpg" alt="libro-famoso" width="150px" height="200px"/>
+        <h5>Nombre: "Libro Dos"</h5>
+        <h5>Autor: Autor</h5>
+        <h5>Fecha de lanzamiento: 2022</h5>
+        <h5>Precio: $45</h5>
+      </article>
+    </div>
+
+    <footer>
+        <form action="" method="post">
+            <fieldset>
+              <legend>Suscribete para obtener nuestras novedades</legend>
+              <input type="name" name="nombre" id="nombre"/>
+              <label for="nombre">Ingrese su nombre: </label>
+              <input type="email" name="mail" id="mail"/>
+              <label for="mail">Ingrese su correo: </label>
+              <input type="text" name="mensaje" id="mensaje"/>
+              <label for="mensaje">Dejanos un mensaje!: </label>
+            </fieldset>
+          </form>
+    </footer>
+  </body>
+</html>
